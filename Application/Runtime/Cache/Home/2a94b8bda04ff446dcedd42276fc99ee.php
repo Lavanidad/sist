@@ -6,7 +6,7 @@
 
 		<!-- style.css -->
 		<link rel="stylesheet" href="<?php echo (SITE_PUBLIC); ?>/home/css/style.css">
-		
+
 		<!-- 新 Bootstrap 核心 CSS 文件 -->
 		<link rel="stylesheet" href="<?php echo (SITE_PUBLIC); ?>/home/css/bootstrap.css">
 
@@ -15,24 +15,16 @@
 
 		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
 		<script src="<?php echo (SITE_PUBLIC); ?>/home/js/jquery.min.js" charset="utf-8"></script>
-		
+
 		<!-- Bootstrap 核心 JavaScript 文件 -->
 		<script src="<?php echo (SITE_PUBLIC); ?>/home/js/bootstrap.min.js"></script>
-		
+
 		<!-- Ripple CSS-->
 		<link rel="stylesheet" type="text/css" href="<?php echo (SITE_PUBLIC); ?>/home/css/ripple-config.css" />
 		<!--[if IE]>
 		  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 
-	
-		<!--&lt;!&ndash; 3D轮播 &ndash;&gt;-->
-		<!--<link rel="stylesheet" type="text/css" href="../../../../Public/home/css/slicebox.css" />-->
-		<!--<link rel="stylesheet" type="text/css" href="../../../../Public/home/css/custom.css" />-->
-		<!--<link rel="stylesheet" href="http://dreamsky.github.io/main/blog/common/init.css">-->
-		<!--<script type="text/javascript" src="../../../../Public/home/js/modernizr.custom.46884.js"></script>-->
-
-		
 	</head>
 	<body style="background-color:#F3F3F3">
 	
@@ -67,7 +59,7 @@
 						<div class="modal-dialog" style="width:400px;margin-top:150px;">
 							<div class="modal-content" style="border-radius:0px">
 								<div class="modal-body">
-									<div class="row-2-navigation navigation">
+									<div class="navigation">
 										<a href="#" class="navigation-list navigation-list-1">Weather</a>
 										<a href="#" class="navigation-list navigation-list-2">Google</a>
 										<a href="#" class="navigation-list navigation-list-3">Google</a>
