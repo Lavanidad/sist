@@ -1,0 +1,56 @@
+button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+	box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.3), 0 3px 3px rgba(0, 0, 0, 0.15), 0 3px 2px -2px rgba(0, 0, 0, 0.2);
+	font-weight: bold;
+	color: #fff;
+	font-size: 1.25em;
+	text-shadow: 0 -0.5px 1px rgba(0, 0, 0, 0.15);
+}
+.content {
+	width: 100%;
+}
+.button {
+	position: relative;
+ 	border-radius: 50px; /*圆形button*/
+ 	color: #000000;
+ 	font-size: 25px;
+ 	height: 100px;
+ 	margin-top: 50px;
+ 	padding: auto;
+ 	text-align: center;
+ 	width: 100px;
+	cursor: pointer;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+.button.styl-material {
+	-webkit-transition: 200ms background cubic-bezier(0.4, 0, 0.2, 1);
+	transition: 200ms background cubic-bezier(0.4, 0, 0.2, 1);
+	background: #CCCCCC;
+}
+
+.button.styl-material:hover,
+.button.styl-material:focus {
+	outline: none;
+	background: #CCCCCC;
+}
+
+.ripple-obj { /*点击后效果*/
+	height: 100%;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	width: 100%; 
+	fill: #888888;
+	border-radius: 100px; /*圆形ripple*/
+}
+
+.ripple-obj use {
+	opacity: 0;
+}
