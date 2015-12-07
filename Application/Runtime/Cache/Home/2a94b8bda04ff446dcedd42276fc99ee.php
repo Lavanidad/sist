@@ -150,14 +150,14 @@
 					<!-- ClassNews 班级动态 -->
 					<div class="row-2-block news">
 						<a href="#" class="list-group-item row-2-block-headline" >班级动态</a>
-						<?php if(is_array($outputClassNews)): $i = 0; $__LIST__ = $outputClassNews;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$ClassNews): $mod = ($i % 2 );++$i;?><a href="" class="list-group-item-list"><?php echo ($ClassNews['title']); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
+						<?php if(is_array($outputClassNews)): $i = 0; $__LIST__ = $outputClassNews;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$ClassNews): $mod = ($i % 2 );++$i;?><a href="<?php echo U('article/article', 'id='.$ClassNews['id']);?>" class="list-group-item-list"><?php echo ($ClassNews['title']); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
 					</div>
 					<!-- /News 班级新闻 -->
 					
 					<!-- Announcement 公告 -->
 					<div class="row-2-block announcement">
 						<a href="#" class="list-group-item row-2-block-headline" >通知公告</a>
-						<?php if(is_array($outputAnnouncement)): $i = 0; $__LIST__ = $outputAnnouncement;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$Announcement): $mod = ($i % 2 );++$i;?><a href="" class="list-group-item-list"><?php echo ($Announcement['title']); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
+						<?php if(is_array($outputAnnouncement)): $i = 0; $__LIST__ = $outputAnnouncement;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$Announcement): $mod = ($i % 2 );++$i;?><a href="<?php echo U('article/article', 'id='.$Announcement['id']);?>" class="list-group-item-list"><?php echo ($Announcement['title']); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
 					</div>
 
 				</div>
@@ -208,7 +208,7 @@
 					<!-- Partynews 党团 -->
 					<div class="row-2-block party">
 						<a href="#" class="list-group-item row-2-block-headline">党团资讯</a>
-						<?php if(is_array($outputPartyNews)): $i = 0; $__LIST__ = $outputPartyNews;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$PartyNews): $mod = ($i % 2 );++$i;?><a href="" class="list-group-item-list"><?php echo ($PartyNews['title']); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
+						<?php if(is_array($outputPartyNews)): $i = 0; $__LIST__ = $outputPartyNews;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$PartyNews): $mod = ($i % 2 );++$i;?><a href="<?php echo U('article/article', 'id='.$PartyNews['id']);?>" class="list-group-item-list"><?php echo ($PartyNews['title']); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
 					</div>
 					
 				</div>
