@@ -1,0 +1,105 @@
+[ 2015-12-04T12:23:30+08:00 ] ::1 /sist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/sist/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `sist_news` [ RunTime:0.012134s ]
+SQL: SELECT `id`,`title` FROM `sist_news` WHERE ( sortid=2 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.017907s ]
+SQL: SELECT `id`,`title` FROM `sist_news` WHERE ( sortid=3 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000322s ]
+SQL: SELECT `id`,`title` FROM `sist_news` WHERE ( sortid=4 ) ORDER BY id desc LIMIT 0,8   [ RunTime:0.046151s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' /Applications/XAMPP/xamppfiles/htdocs/sist/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2015-12-04T12:24:13+08:00 ] ::1 /sist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/sist/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `sist_news` [ RunTime:0.002222s ]
+SQL: SELECT `id`,`title` FROM `sist_news` WHERE ( sortid=2 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.002256s ]
+SQL: SELECT `id`,`title` FROM `sist_news` WHERE ( sortid=3 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000374s ]
+SQL: SELECT `id`,`title` FROM `sist_news` WHERE ( sortid=4 ) ORDER BY id desc LIMIT 0,8   [ RunTime:0.001854s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' /Applications/XAMPP/xamppfiles/htdocs/sist/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2015-12-04T16:43:19+08:00 ] ::1 /sist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/sist/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `sist_news` [ RunTime:0.005228s ]
+SQL: SELECT `id`,`title` FROM `sist_news` WHERE ( sortid=2 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.016043s ]
+SQL: SELECT `id`,`title` FROM `sist_news` WHERE ( sortid=3 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000336s ]
+SQL: SELECT `id`,`title` FROM `sist_news` WHERE ( sortid=4 ) ORDER BY id desc LIMIT 0,8   [ RunTime:0.053451s ]
+NOTIC: [8] Undefined variable: getPartyNews /Applications/XAMPP/xamppfiles/htdocs/sist/Application/Home/Controller/IndexController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /Applications/XAMPP/xamppfiles/htdocs/sist/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2015-12-04T16:43:38+08:00 ] ::1 /sist/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/XAMPP/xamppfiles/htdocs/sist/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `sist_news` [ RunTime:0.001266s ]
+SQL: SELECT `id`,`title` FROM `sist_news` WHERE ( sortid=2 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000797s ]
+SQL: SELECT `id`,`title` FROM `sist_news` WHERE ( sortid=3 ) ORDER BY id desc LIMIT 0,9   [ RunTime:0.000382s ]
+SQL: SELECT `id`,`title` FROM `sist_news` WHERE ( sortid=4 ) ORDER BY id desc LIMIT 0,8   [ RunTime:0.018377s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' /Applications/XAMPP/xamppfiles/htdocs/sist/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+

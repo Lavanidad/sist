@@ -21,8 +21,9 @@
 
 		<!-- Ripple CSS-->
 		<link rel="stylesheet" type="text/css" href="<?php echo (SITE_PUBLIC); ?>/home/css/ripple-config.css" />
+
 		<!--[if IE]>
-		  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="<?php echo (SITE_PUBLIC); ?>/home/js/iehtml5.js"></script>
 		<![endif]-->
 
 	</head>
@@ -61,7 +62,7 @@
 								<div class="modal-body">
 									<div class="navigation">
 										<a href="#" class="navigation-list navigation-list-1">Weather</a>
-										<a href="#" class="navigation-list navigation-list-2">Google</a>
+										<a href="<?php echo U('list/show_list');?>" class="navigation-list navigation-list-2">Google</a>
 										<a href="#" class="navigation-list navigation-list-3">Google</a>
 										<a href="#" class="navigation-list navigation-list-4">Google</a>
 										<a href="#" class="navigation-list navigation-list-5">Google</a>
@@ -335,52 +336,12 @@
 			$("#myCarousel").carousel('cycle');
 		</script>
 		<!-- /平滑轮播自动播放 -->
+
 		
-		<!-- 3D轮播JS -->
-		<script type="text/javascript" src="<?php echo (SITE_PUBLIC); ?>/home/js/jquery.slicebox.js"></script>
-		<script type="text/javascript">
-			$(function() {
-				
-				var Page = (function() {
-
-					var $navArrows = $( '#nav-arrows' ).hide(),
-						$navOptions = $( '#nav-options' ).hide(),
-						$shadow = $( '#shadow' ).hide(),
-						slicebox = $( '#sb-slider' ).slicebox( {
-							onReady : function() {
-								slicebox.play();
-								$navArrows.show();
-								$navOptions.show();
-								$shadow.show();
-
-							},
-							orientation : 'h',
-							cuboidsCount : 3
-						} ),
-						
-						init = function() {
-
-							initEvents();
-							
-						},
-						initEvents = function() {
-
-						};
-
-						return { init : init };
-
-				})();
-
-				Page.init();
-
-			});
-		</script>
-		<!-- /3D轮播 -->
-		
-		<!-- GreenSock Power : Required for Demo -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+		<!-- LOGO RippleJS -->
+		<script src="<?php echo (SITE_PUBLIC); ?>/home/js/TweenMax.min.js"></script>
 		<script src="<?php echo (SITE_PUBLIC); ?>/home/js/ripple-config.js"></script>
-		<!-- /GreenSock Power : Required for Demo -->
+		<!-- /LOGO RippleJS -->
 
 	</body>
 </html>

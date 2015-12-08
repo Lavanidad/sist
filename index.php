@@ -15,7 +15,7 @@
 if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
 
 // 定义资源路径常量
-define('SITE_PUBLIC', '/sist/Public');
+define('SITE_PUBLIC', '/sist/Application/Public');
 
 // 开启调试模式 建议开发阶段开启 部署阶段注释或者设为false
 define('APP_DEBUG',True);
@@ -24,6 +24,6 @@ define('APP_DEBUG',True);
 define('APP_PATH','./Application/');
 
 // 引入ThinkPHP入口文件
-require './ThinkPHP/ThinkPHP.php';
+require './Application/ThinkPHP/ThinkPHP.php';
 
 // 亲^_^ 后面不需要任何代码了 就是如此简单
