@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 
 		<title>list</title>
-		
+
 		<!-- style.css -->
 		<link rel="stylesheet" href="<?php echo (SITE_PUBLIC); ?>/home/css/listpage.css">
 
@@ -58,20 +58,36 @@
 
 					<!-- 弹出框（Modal） -->
 					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-						<div class="modal-dialog" style="width:400px;margin-top:150px;">
-							<div class="modal-content" style="border-radius:0px">
-								<div class="modal-body">
-									<div class="row-2-navigation navigation">
-										<a href="#" class="navigation-list navigation-list-1">Weather</a>
-										<a href="#" class="navigation-list navigation-list-2">Google</a>
-										<a href="#" class="navigation-list navigation-list-3">Google</a>
-										<a href="#" class="navigation-list navigation-list-4">Google</a>
-										<a href="#" class="navigation-list navigation-list-5">Google</a>
-										<a href="#" class="navigation-list navigation-list-6">Google</a>
-										<a href="#" class="navigation-list navigation-list-7">Google</a>
-										<a href="#" class="navigation-list navigation-list-8">Google</a>
+						<div class="modal-dialog" style="width:1000px;margin-top:100px;border-radius:0px;">
+							<div class="modal-content">
+								<div class="modal-body row">
+									<div class="col-md-4">
+										<li class="popup-list "><a href="#" >Google</a></li>
+										<li class="popup-list "><a href="<?php echo U('list/show_list');?>" class="popup-list ">Google</a></li>
+										<li class="popup-list "><a href="#" >Google</a></li>
+										<li class="popup-list "><a href="#" >Google</a></li>
+										<li class="popup-list "><a href="#" >Google</a></li>
+										<li class="popup-list "><a href="#" >Google</a></li>
+										<li class="popup-list "><a href="#" >Google</a></li>
 									</div>
-
+									<div class="col-md-4">
+										<li class="popup-list "><a href="#" >Google</a></li>
+										<li class="popup-list "><a href="<?php echo U('list/show_list');?>" class="popup-list ">Google</a></li>
+										<li class="popup-list "><a href="#" >Google</a></li>
+										<li class="popup-list "><a href="#" >Google</a></li>
+										<li class="popup-list "><a href="#" >Google</a></li>
+										<li class="popup-list "><a href="#" >Google</a></li>
+										<li class="popup-list "><a href="#" >Google</a></li>
+									</div>
+									<div class="col-md-4">
+										<li class="popup-list "><a href="#" >Google</a></li>
+										<li class="popup-list "><a href="<?php echo U('list/show_list');?>" class="popup-list ">Google</a></li>
+										<li class="popup-list "><a href="#" >Google</a></li>
+										<li class="popup-list "><a href="#" >Google</a></li>
+										<li class="popup-list "><a href="#" >Google</a></li>
+										<li class="popup-list "><a href="#" >Google</a></li>
+										<li class="popup-list "><a href="#" >Google</a></li>
+									</div>
 								</div>
 							</div>
 							<!-- /.modal-content -->
