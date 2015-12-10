@@ -109,7 +109,16 @@
                     </div>
 
                     <div id="article_content">
-                        <p><?php echo ($article[0]['content']); ?></p>
+                        <div id="ArticleInfo">
+                            <?php if(is_array($outputArticleInfo)): $i = 0; $__LIST__ = $outputArticleInfo;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$ArticleInfo): $mod = ($i % 2 );++$i;?><p class="article_title"><?php echo ($ArticleInfo['title']); ?></p>
+                                    <p class="article_info"><?php echo ($ArticleInfo['add_time']); ?></p>
+                                    <p class="article_info"><?php echo ($ArticleInfo['source']); ?></p>
+                                    <p class="article_info"><?php echo ($ArticleInfo['viewnum']); ?></p><?php endforeach; endif; else: echo "" ;endif; ?>
+                        </div>
+
+                        <div id="ArticleContent">
+                            <p><?php echo ($outputArticle[0]['content']); ?></p>
+                        </div>
                     </div>
 
                 </div>

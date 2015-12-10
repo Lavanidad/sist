@@ -170,7 +170,7 @@
 						<?php if(is_array($outputClassNews)): $i = 0; $__LIST__ = $outputClassNews;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$ClassNews): $mod = ($i % 2 );++$i;?><a href="<?php echo U('article/article', 'id='.$ClassNews['id']);?>" class="list-group-item-list"><?php echo ($ClassNews['title']); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
 					</div>
 					<!-- /News 班级新闻 -->
-					
+
 					<!-- Announcement 公告 -->
 					<div class="row-2-block announcement">
 						<a href="#" class="list-group-item row-2-block-headline" >通知公告</a>

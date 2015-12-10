@@ -130,3 +130,18 @@
     padding: 30px 50px 30px 50px;
     box-shadow: 0px 4px 4px #CCCCCC;
 }
+
+.article_title{
+    text-align: center;
+    font-size: 36px;
+    color: #0090C5;
+}
+.article_info{
+    font-size:20px;
+    float: right;
+    margin-right: 15px;
+    line-height: 30px;
+}
+#ArticleInfo {
+    margin-bottom: 50px;
+}

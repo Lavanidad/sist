@@ -109,7 +109,18 @@
                     </div>
 
                     <div id="article_content">
-                        <p>{$article[0]['content']}</p>
+                        <div id="ArticleInfo">
+                            <volist name="outputArticleInfo" id="ArticleInfo">
+                                    <p class="article_title">{$ArticleInfo['title']}</p>
+                                    <p class="article_info">{$ArticleInfo['add_time']}</p>
+                                    <p class="article_info">{$ArticleInfo['source']}</p>
+                                    <p class="article_info">{$ArticleInfo['viewnum']}</p>
+                            </volist>
+                        </div>
+
+                        <div id="ArticleContent">
+                            <p>{$outputArticle[0]['content']}</p>
+                        </div>
                     </div>
 
                 </div>
