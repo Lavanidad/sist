@@ -1,3 +1,6 @@
+body{
+    cursor: default;
+}
 .header {
     background-color: #3B414D;
     width: 100%;
@@ -135,6 +138,7 @@
     text-align: center;
     font-size: 36px;
     color: #0090C5;
+    margin-bottom: 20px;
 }
 .article_info{
     font-size:20px;
@@ -143,5 +147,5 @@
     line-height: 30px;
 }
 #ArticleInfo {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }

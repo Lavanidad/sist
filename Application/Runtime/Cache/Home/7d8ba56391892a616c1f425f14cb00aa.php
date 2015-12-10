@@ -37,7 +37,7 @@
 
 				<!-- LOGO -->
 				<div class="col-md-6" >
-					<img src="<?php echo (SITE_PUBLIC); ?>/home/img/logo-wb.png"/>
+					<a href="<?php echo U('index/index');?>"><img src="<?php echo (SITE_PUBLIC); ?>/home/img/logo-wb.png"/></a>
 				</div>
 				<!-- /End LOGO -->
 
