@@ -7,7 +7,7 @@
 	height: 50px;
 	margin-bottom: 150px;
 }
-.footer {
+#footer {
 	background-color: #FFFFFF;
 	color:#000;
 	cursor: default;
@@ -30,8 +30,9 @@
 	text-align: center;
 	line-height: 30px;
 	font-size: 18px;
+	color: #000;
 }
-.popup-list a:visited, .popup-list a:hover{
+.popup-list a:visited, .popup-list a:hover, .popup-list a:active{
 	text-decoration: none;
 	color: #000;
 }
